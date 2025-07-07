@@ -13,3 +13,7 @@
 * : Compliance testing (PCI-DSS, CIS Top 20, NIST, GDPR, HIPAA)
 
 * : Tailored consulting services
+
+ADB command for bypassing FRP
+
+adb shell content insert --uri content://settings/secure --bind name:s:user_setup_complete --bind value:s:1
