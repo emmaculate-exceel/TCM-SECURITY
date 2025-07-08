@@ -59,3 +59,23 @@ Describe the actions you took to deal with the problem or task.
 
 R: Result
 Describe the effects or outcomes of your activity.
+
+
+---
+
+## Tell me about yourself
+
+* This is a very common question you may encounter in almost every job interview. and it can be a bit initmidating because it's open-sourced and allows you to talk about a wide range of topics However, with a bit of preparation, you can give a confident and effective answer that highlights your strength and qualifications for the job.
+
+  - Keep the answer concise and focused 2-3 minutes
+  - Start with a brief overview of your background and experiences.
+  - focus on your most relevant experiences and accomplishments.
+  - Tie your experiences and accomplishments to the job.
+  - End with a strong closing statement.
+
+Here are a few helpful questions you can ask yourself ahead of time to prepare
+
+     * What are you doing presently?
+     * What have you done in the past?
+     * What are your plans in the future?
+     
