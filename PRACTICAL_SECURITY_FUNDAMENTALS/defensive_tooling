@@ -4,3 +4,33 @@
 * Covers high level topics that would transfer to all or most vendors
 + Some labs will use specifics tools but only where there are free or open source versions .
 + Enterprise security tools = $$$
+
+
+## Firewall
+
+- Filter network traffic entering or exiting a network or computer
+- physical or virtual, network or host based.
+- Blocks unwanted or unsafe traffic
+- Check Source and Destination IP Address, Port and Protocol.
+
+
+## ACL (access control list) tables
+
+Rule   Action(permit/deny)	 Protocol	Src IP(s)	Src Port Dest IP(s) Dest Port(s)
+
+1	   Permit				 TCP    	<ip>/24		any		 Any  		80
+2	   permit 				 TCP    	<ip>/24  	any		 any		443
+3	   permit				 UDP		<ip>/24		any	     any		80
+4 	   permit				 UDP		<ip>/24 	any		 any		443
+5
+6	   Deny					 Any(IP)	Any			any		 any		any
+
+Note ACLs work based on heirachy
+
+## Traditional vs Next Gen(NG)
+
+- traditional firewals only filters on IPs, ports, and protocols.
+- the above examples are for traditional firewalss
+- newer firewalls called Next Gen or (NG) filter on many more factors.
+- User identity and behaviours, threat intelligence, decryption, packet inspection, content filtering.
+
