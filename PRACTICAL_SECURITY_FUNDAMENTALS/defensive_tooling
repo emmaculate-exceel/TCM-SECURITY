@@ -34,3 +34,15 @@ Note ACLs work based on heirachy
 - newer firewalls called Next Gen or (NG) filter on many more factors.
 - User identity and behaviours, threat intelligence, decryption, packet inspection, content filtering.
 
+
+## IDS and IPS
+
+- IDS = Intrusion detection systems only alerts
+- IPS = Intrusion prevention detection systems - alerts and responds/prevents
+- Can be host based or network based, mostly network based now.
+- Network based work by inspecting more properties than what a firewall inspects.
+- Uses signatures and sometimes behavioural/anomaly based detections.
+
+## What is endpoints
+
+- 
