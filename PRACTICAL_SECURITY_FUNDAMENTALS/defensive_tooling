@@ -71,4 +71,18 @@ NOTE : EDR is an advance threat detection system .
 - Where one fails another may prevails
 - Attackers are frequently looking for the easiest target - multiple defenses is a deterrent
 - provides redundancy in case of complete control failure.
- 
+
+
+## The confusion Matrix
+
+
+The four states of the matrix are:
+
+True Positive: the test correctly detected the presence of what it was testing for, in cybersecurity this means it properly detected malicious activity.
+
+True Negative: the test correctly detected the absence of what it was testing for, in cybersecurity this means it properly detected normal activity.
+
+False Positive: the test incorrectly detected the presence of what it was testing for, in cybersecurity this means that it classified normal (sometimes referred to as benign) activity as malicious. False positives can be a nuisance and also use up resources for security teams to triage. Detection tools are frequently tuned to reduce the amount of false positives they produce.
+
+False Negative: the test incorrectly detected the absence of what it was testing for, in cybersecurity this means that it classified malicious activity as normal (benign). False negatives are much more dangerous than false positives as they mean that malicious activity went undetected by the system. When tuning detection systems to reduce false positives it is important to not over tune and introduce false negatives.
+
