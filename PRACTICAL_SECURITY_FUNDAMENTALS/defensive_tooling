@@ -43,6 +43,32 @@ Note ACLs work based on heirachy
 - Network based work by inspecting more properties than what a firewall inspects.
 - Uses signatures and sometimes behavioural/anomaly based detections.
 
-## What is endpoints
+## What endpoints detection and response (EDR)
 
-- 
+- Significantly more advanced and capable form of endpoint protection
+- Relies on multiple different sources of data (telemetry) to proactively detect and respond to treat.
+- Examples of telemetry: file signatures, network connections, running processes, memory, kernel system or API calls, What files are opened or accessed.
+- Telemetry is collected by a piece of software referred to as an agent which is installed on the endpoints (computers)
+- the Agent may do some processing locally but most is done in a cloud based console or controller.
+
+NOTE : EDR is an advance threat detection system .
+
+
+## Security Information and Event Management (SIEM)
+
+- Collects and aggregate logs from sources and tools like firewall, IDR/IPS, EDR, logs from services, cloud tools, threat intel.
+
+- Creates a single place to alert on, view on, report and action incidents or events from all of the security relevant sources and tools within a business or organization.
+- SIEM can be tuned to provide different levels of alert based on the input to it or correllations of multiple inputs.
+- Aggregating multiple source of information together provides for hight quality alerts and paints a clearer picture for security staff
+- sometimes referred to as a single pane of glass
+- provides reportss and is crittical for compliance
+- Can be used for threat hunting and in-dept log analysis
+
+## Defense in-depth
+
+- No security tools or control is perfect
+- Where one fails another may prevails
+- Attackers are frequently looking for the easiest target - multiple defenses is a deterrent
+- provides redundancy in case of complete control failure.
+ 
