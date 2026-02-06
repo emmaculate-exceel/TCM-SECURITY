@@ -92,14 +92,64 @@
   - Active network recon includes techniques like port scanning, service identification and vulnerability scanning
   - A common tool for this is nmap
   
+## Common Network-Based Attacks
+   - Eavesdropping and Sniffing: Captureing traffic on the network and attempting to read its content
+   - Spoofing: flasifying data such as ARP or DNS records to imporsonate a trusted system or component
+   - Man-in-the-middle (MITM): intercpeting traffic between 2 or more endpoints and reading or altering it.
+   - Denial of Service: Flooding a network or endpoint with requests to take it offline.
 
 
+## Common Network-Based Defenses
+
+   - Network monitoring tools such as IDS/IPS
+   - Filtering tools such as firewalls
+   - Encryption of data in transit such as using TLS/SSL
+   - Segmentations of network traffics through the use of subnets and VLANs
+   - Rate limiting services such as cloudflare or other anti-ddos services or tools .
 
 
+### Wireless Attacks
+
+	- More and more devices are using wireless proctocols
+	- These includes :
+	  		- Wifi (802.11x)
+			- Cellular (4g, LTE, 5g etc)
+			- Bluetooth
+			- LoRa
+			- NFC
+	- Wireless attacks and defense shares overlaps with network-based attacks(eg, packet sniffing)
+	- The properties of wireless network present new attacks vetors and methods
 
 
+### Wifi Proctocol
+
+	- There are 3 common proctocol for WiFi's
+	  		- WEP
+			- WPA/WPA2 PSK
+			- WPA/WPA2 Enterprise
+	- WEP is deprecated a nd should never be used, it is easily crackable
+	- WPA/WPA2 is the most common
+	- It can use 2 authentication methods
+	  	 - PSK 	= Pre-Shared Key -> one password to access network
+		 - Enterprise = per-user credentials, uses and additional server for authentication
+	- WPA3 is the most recent update proctocol
+	  	   - Security improvement over WPA2
+		   - Not widely adapted yet .
+
+### Wifi Attacks
+
+   - Packet sniffing: similar to network based attacks
+   - Deauth/Dissassociation attacks network is flood with deauth packets causing devices to disconnects and re-authenticate
+   - Key recovery and cracking attacks: hand-shakes can be cpatured and cracked ofline, WEP can be bruteforced, a common tool for this is AirCrack-ng
+   - Rouge access points/Evil-Twin APs: attempts to trick users into connecting to attackers controlled networks
+   - Wireless MITM attacks
+   - Attacks on RM frequencies such as jamming .
 
 
+## WiFi Defenses and Mitigations
 
-
-
+   - Enforcing and using secure proctocols (WPA/WPA2)
+   - Using string passphrase if using PSKs
+   - Use of network defense tools such as Firewall, IDS/IPS
+   - Network segmentations and use of guest wireless networks
+   - Using encrypted proctocols (https) 
